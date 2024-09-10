@@ -1,4 +1,4 @@
-import { Home, Info, Dumbbell, Users, DollarSign, Phone } from 'lucide-react'
+import { Home, Info, Dumbbell, Calendar, DollarSign, Phone } from 'lucide-react'
 
 export default function Navigation() {
   return (
@@ -23,9 +23,9 @@ export default function Navigation() {
           </a>
         </li>
         <li>
-          <a href="#trainers" className="flex flex-col items-center text-white hover:text-yellow-600 transition duration-300">
-            <Users className="w-6 h-6" />
-            <span className="text-xs mt-1">Trainers</span>
+          <a href="#calendar" className="flex flex-col items-center text-white hover:text-yellow-600 transition duration-300">
+            <Calendar className="w-6 h-6" />
+            <span className="text-xs mt-1">Schedule</span>
           </a>
         </li>
         <li>

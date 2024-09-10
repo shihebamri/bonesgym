@@ -11,27 +11,27 @@ export default function Footer() {
               <li><a href="#hero" className="hover:text-yellow-400 transition duration-300">Home</a></li>
               <li><a href="#about" className="hover:text-yellow-400 transition duration-300">About</a></li>
               <li><a href="#services" className="hover:text-yellow-400 transition duration-300">Services</a></li>
-              <li><a href="#trainers" className="hover:text-yellow-400 transition duration-300">Trainers</a></li>
+              <li><a href="#calendar" className="hover:text-yellow-400 transition duration-300">Schedule</a></li>
               <li><a href="#contact" className="hover:text-yellow-400 transition duration-300">Contact</a></li>
             </ul>
           </div>
           <div>
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
-              <a href="https://facebook.com/OlympiaChampionsGym" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-400 transition duration-300">
+              <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-400 transition duration-300">
                 <Facebook className="w-6 h-6" />
               </a>
-              <a href="https://instagram.com/OlympiaChampionsGym" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-400 transition duration-300">
+              <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-400 transition duration-300">
                 <Instagram className="w-6 h-6" />
               </a>
-              <a href="https://twitter.com/OlympiaChampGym" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-400 transition duration-300">
+              <a href="https://twitter.com/m" target="_blank" rel="noopener noreferrer" className="text-white hover:text-yellow-400 transition duration-300">
                 <Twitter className="w-6 h-6" />
               </a>
             </div>
           </div>
         </div>
         <div className="mt-8 text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} Bones Fitness. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Bones Fitness. WebSite Desgined By Amri Chiheb</p>
           <p className="mt-2">
             <a href="/privacy-policy" className="hover:text-yellow-400 transition duration-300">Privacy Policy</a>
             {' | '}

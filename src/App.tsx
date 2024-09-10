@@ -39,7 +39,7 @@ function App() {
           <section id="services">
             <Services />
           </section>
-          <section>
+          <section id="calendar">
             <Sch />
           </section>
           <section id="testimonials">
