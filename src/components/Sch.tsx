@@ -96,15 +96,6 @@ export default function ScheduleComponent() {
           ))}
         </div>
       </div>
-      <div className="text-center mt-8">
-        <motion.button
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="bg-yellow-400 text-black font-bold py-2 px-6 rounded-full"
-        >
-          Book a Class
-        </motion.button>
-      </div>
     </section>
   )
 }
